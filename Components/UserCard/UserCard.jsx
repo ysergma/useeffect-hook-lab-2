@@ -3,7 +3,7 @@ export default function UserCard({data}) {
   if(data.message){
     return (
     <div className="user-card">
-<h2>type a valid username</h2>
+<h2>Username doesn't exist</h2>
 
     </div>
     )

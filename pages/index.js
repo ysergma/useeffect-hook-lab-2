@@ -14,7 +14,7 @@ export default function Home() {
     const newData = await response.json()
     setData(newData)
   }
-  useEffect(()=>{fetchData()},[username])
+  useEffect(()=>{fetchData()},[username,data])
 
   return (
     
